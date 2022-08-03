@@ -1,0 +1,31 @@
+  1. 깃 설정 git init
+* 이 때 .gitignore가 없다면 src안에 생성할 것 *
+
+# dependencies
+/node_modules
+
+# build 배포
+/build
+
+
+  2. 깃 환경설정
+깃환경설정 사용자.이름    git config user.name 'heesung'
+깃환경설정 사용자.이메일  git config user.email 'hspark0814@naver.com'
+
+* 확인방법 *
+git config user.name
+git config user.email
+
+
+  3. 깃허브 원격지 리포지토리(저장소) Origin(url)
+삭제: git remote remove origin -> 잘못된 것을 삭제하는 의미
+추가: git remote add origin https://github.com/Hxxsung/kurly_CRA.git
+
+* 확인방법 *
+git remote -v
+
+
+  4. 깃허브 스테이징
+git add .
+git commit -m '리액트 CRA 마켓컬리 회원가입폼 원본 소스'
+git push origin master
