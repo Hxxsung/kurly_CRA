@@ -1,5 +1,6 @@
   1. 깃 설정 git init
 * 이 때 .gitignore가 없다면 src안에 생성할 것 *
+클론
 
 # dependencies
 /node_modules
